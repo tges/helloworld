@@ -23,21 +23,6 @@
                <webXml>src\main\webapp\WEB-INF\web.xml</webXml>        
             </configuration>
          </plugin>
-         <plugin>
-            <executions>
-               <execution>
-                 <id>timestamp-property</id>
-                 <goals>
-                    <goal>timestamp-property</goal>
-                 </goals>
-                 <configuration>
-                    <name>buildtime</name> <!-- Usage : ${buildtime} -->
-                    <pattern>yyyyMMdd-HHmmss</pattern>
-                    <timezone>GMT+9</timezone>
-                 </configuration>
-               </execution>
-             </executions>
-         </plugin>
       </plugins>
    </build>
    <distributionManagement>
