@@ -6,6 +6,7 @@ package com.companyname.bank;
 */
 
 public class App {
+  public void testMethod(){
       Util.printMessage("Hello World!");
    }
 }
